@@ -17,11 +17,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="todo_container">
+    <div class="todo-container">
         <header>
             <h1>ToDo Avançado</h1>
         </header>
-        <form id="todo_form">
+        <form id="todo-form">
             <p> Adicone a sua Tarefa:</p>
             <div id="form-control">
                 <input type="text" id="todo-input" placeholder="o que você vai fazer?">
@@ -30,7 +30,7 @@
                 </button>
             </div>
         </form>
-        <form id="edit-form">
+        <form id="edit-form" class="hide">
             <p>Edite a sua tarefa:</p>
             <div id="form-control">
                 <input type="text" id="edit-input">
@@ -60,7 +60,7 @@
             </div>
         </div>
         <div id="todo-list">
-            <div class="todo">
+            <div class="todo done">
                 <h3>Estou fazendo algo</h3>
                 <button class="finish-todo">
                     <i class="fa-solid fa-check"></i>
